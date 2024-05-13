@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    background-color:yellow;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+body{
+    background-color: darksalmon;
+}
+
+
+span{
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.parent-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+
+.parent-0 h1 {
+    color:black;
+}
+
+.parent-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    color:white;
+    background-color:black;
+    width: 300px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.top {
+    margin-top: 50px;
+}
